@@ -1,4 +1,12 @@
 package com.rezi.security.auth;
 
-public class AuthentificationResponse {
+import lombok.*;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class AuthenticationResponse {
+
+    private String token;
 }
